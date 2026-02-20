@@ -1,0 +1,140 @@
+body,
+html {
+    min-height: 100%;
+}
+/*===================Resets==================*/
+
+img {
+    max-width: 100%;
+}
+
+/*===================Typography==================*/
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Lobster', cursive;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.7em;
+}
+
+h2 {
+    font-size: 2.3em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+body {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    font-size: 110%;  
+}
+
+/*===================Content styles==================*/
+
+header {
+    padding: 0 0 30px 0;
+    background: rgb(65, 76, 139);
+    background: url('images/white-dots.png'), radial-gradient(circle, rgba(65, 76, 139, 1) 0%, rgba(11, 18, 98, 1) 100%);
+    border-bottom: 5px solid #000;
+}
+
+#logo,
+nav,
+#chicken {
+    vertical-align: middle;
+}
+
+#logo {
+    width: 310px;
+}
+
+nav {
+    margin: 0 60px 0 0;
+    width: fit-content;
+}
+
+#chicken {
+    height: 230px;
+}
+
+main {
+    margin: 0;
+    padding: 40px;
+    min-height: 60vh;
+    background: rgb(182, 100, 34);
+    background: url('images/white-dots.png'), radial-gradient(circle, rgba(200, 118, 41, 1) 0%, rgba(156, 76, 12, 1) 100%);
+}
+
+article>img {
+    border: 5px solid #000;
+    border-radius: 20px;
+    max-width: 80%;
+}
+
+footer {
+    padding-top: 40px;
+    background: rgb(54, 143, 58);
+    background: url('images/white-dots.png'), radial-gradient(circle, rgba(73, 142, 76, 1) 0%, rgba(35, 54, 35, 1) 100%);
+    border-top: 5px solid #000;
+}
+
+#sale {
+    width: 300px;
+}
+
+footer>h2 {
+    max-width: 500px;
+}
+
+#half-chicken {
+    width: 200px;
+}
+
+/*===================student code==================*/
+
+body {
+    text-align: center;
+}
+
+nav>ul {
+    list-style-type: none;
+}
+
+nav>ul>li {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 24px;
+}
+
+#logo,
+nav,
+#chicken {
+    display: inline-block;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f2c81b;
+}
+
+a.active {
+    color: #f2c81b;
+    border-bottom: 2px solid #f2c81b;
+}
+
+footer > * {
+    display: inline-block;
+    vertical-align: middle;
+}
